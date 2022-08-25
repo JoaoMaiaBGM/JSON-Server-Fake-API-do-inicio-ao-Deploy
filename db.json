@@ -33,6 +33,12 @@
       "state": "Pernambuco",
       "region": "nordeste",
       "id": 1
+    },
+    {
+      "name": "Goiânia",
+      "state": "Goiás",
+      "region": "centro-oeste",
+      "id": 2
     }
   ]
 }
