@@ -1,3 +1,38 @@
 {
-  "users": []
+  "users": [
+    {
+      "email": "marta@mail.com",
+      "password": "$2a$10$4IT9OGPuYvg8TYGt/l3lvueoBolgKqCI1uV3ICsXgWYXmyB13Vpri",
+      "name": "Marta",
+      "id": 1
+    },
+    {
+      "email": "joao@mail.com",
+      "password": "$2a$10$GF4/GimgwAxyAQVYaX48KeAmd9x.kuW0NQnlVziDHdlUIeEX7M8lS",
+      "name": "João",
+      "id": 2
+    }
+  ],
+  "movies": [
+    {
+      "title": "Lord of the rings",
+      "resume": "A young hobbit, Frodo, who has found the One Ring that belongs to the Dark Lord Sauron, begins his journey with eight companions to Mount Doom, the only place where it can be destroyed.",
+      "year": 2001,
+      "id": 1
+    },
+    {
+      "title": "The Matrix",
+      "resume": "Thomas Anderson, a computer programmer, is led to fight an underground war against powerful computers who have constructed his entire reality with a system called the Matrix.",
+      "year": 1999,
+      "id": 2
+    }
+  ],
+  "cities": [
+    {
+      "name": "Recife",
+      "state": "Pernambuco",
+      "region": "nordeste",
+      "id": 1
+    }
+  ]
 }

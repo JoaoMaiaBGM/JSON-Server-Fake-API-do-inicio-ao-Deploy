@@ -20,3 +20,31 @@ POST /login
 POST /signin
 
 Qualquer um desses 2 endpoints pode ser usado para realizar login com um dos usuários cadastrados na lista de "Users"
+
+# Movies
+
+Para cadastrar um novo filme o usário precisa estar logado. Após fazer o login, o usuário pode cadastrar um novo filme utilizando um título, o ano de lançamento e um resumo, através do endpoint:
+
+POST /movies
+
+{
+"title": "Lord of the rings",
+"resume": "A young hobbit, Frodo, who has found the One Ring that belongs to the Dark Lord Sauron, begins his journey with eight companions to Mount Doom, the only place where it can be destroyed.",
+"year": 2001
+}
+
+# Cities (rota autenticada)
+
+Para cadastrar e ler sobre uma cidade o usário deve estar logado. Cadastrando uma nova cidade o usuário devel utilizar um nome, um estado e uma região, através do endpoint:
+
+POST /cities
+
+{
+"name": "Recife",
+"state": "Pernambuco",
+"region": "nordeste"
+}
+
+para deletar uma cidade, o usuário utilizará o seguinte endpoint:
+
+DELETE /cities/idCidade
